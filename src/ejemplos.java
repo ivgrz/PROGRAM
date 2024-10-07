@@ -27,6 +27,8 @@ public class ejemplos {
 
  */
 //Boletin3, ej2
+
+     /*
         short z,y, r1, r2 = 0;
         Scanner entradaTec;
         entradaTec = new Scanner(System.in);
@@ -48,9 +50,26 @@ public class ejemplos {
             r2 = (short) (y + z);
         }
         System.out.println(r2);
+*/
+
+// Boletin 3 ej 3
+
+int a;
+        Scanner entradaTec;
+        entradaTec = new Scanner(System.in);
+        System.out.println("introduce un numero:");
+        a = (int) entradaTec.nextDouble();
 
 
+        if (a > 0) {
+            System.out.println("+");
+        }
+        if (a < 0){
+            System.out.println("-");
+        if (a == 0);
+            System.out.println("0");
 
+        }
 
     }
 } //end method main
