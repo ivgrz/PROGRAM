@@ -13,7 +13,7 @@ public class ejemplos {
 */
 
 //Boletin3, ej 1
-
+/*
     int x;
         Scanner entradaTeclado;
         entradaTeclado = new Scanner(System.in);
@@ -24,6 +24,31 @@ public class ejemplos {
         {
             System.out.println("es positivo");
         }
+
+ */
+//Boletin3, ej2
+        short z,y, r1, r2 = 0;
+        Scanner entradaTec;
+        entradaTec = new Scanner(System.in);
+        System.out.println("introduce el primer numero");
+        z = entradaTec.nextShort();
+
+        Scanner entradaT;
+        entradaT = new Scanner(System.in);
+        System.out.println("introduce el segundo numero");
+        y = entradaT.nextShort();
+
+        if (z >= y)
+        {
+            r1 = (short) (z - y);
+            System.out.println(r1);
+        }
+
+        else {
+            r2 = (short) (y + z);
+        }
+        System.out.println(r2);
+
 
 
 
