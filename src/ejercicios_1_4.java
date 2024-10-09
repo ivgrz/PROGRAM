@@ -12,7 +12,7 @@ public class ejercicios_1_4 {
                 System.out.println("Pasaste");
 
 
-//Boletin3, ej 1
+//Boletin3, 1
 
     int x;
         Scanner entradaTeclado;
