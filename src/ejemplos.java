@@ -1,5 +1,7 @@
 import java.util.Scanner;
 
+import static java.util.Scanner.*;
+
 public class ejemplos {
     public static void main (String [] args) {
 
@@ -11,9 +13,9 @@ public class ejemplos {
          else {
                 System.out.println("Pasaste");
 */
-
-//Boletin3, ej 1
 /*
+//Boletin3, ej 1
+
     int x;
         Scanner entradaTeclado;
         entradaTeclado = new Scanner(System.in);
@@ -25,10 +27,10 @@ public class ejemplos {
             System.out.println("es positivo");
         }
 
- */
+*/
 //Boletin3, ej2
 
-     /*
+/*
         short z,y, r1, r2 = 0;
         Scanner entradaTec;
         entradaTec = new Scanner(System.in);
@@ -51,7 +53,7 @@ public class ejemplos {
         }
         System.out.println(r2);
 */
-
+/*
 // Boletin 3 ej 3
 
 int a;
@@ -70,7 +72,32 @@ int a;
         if (a == 0) {
             System.out.println("0");
         }
+*/
+//Boletin 3 ej 4
+int  res, res1;
+Scanner entradaTec;
+entradaTec = new Scanner(System.in);
+        System.out.println("Introduce nombre de la primera persona:");
+    String nombre = entradaTec.nextLine();
 
 
+    System.out.println("introduce el peso de la primera persona: ");
+    int p1 = Scanner.nextInt();
+
+    System.out.println("Introduce el nombre de la segunda persona:");
+        String nombre2 = entradaTec.nextLine();
+        System.out.println("introduce el peso de la segunda persona: ");
+        int p2 = Scanner.nextInt();
+
+if (p1 > p2) {
+    res = (p1 - p2);
+ System.out.println("La persona que pesa mas es: " + nombre + "La diferencia de peso entre los dos es: " + res);
+    entradaTec.close();
+}
+else {
+    System.out.println("La persona que pesa mas es: " + nombre2 + "su diferencia de peso es " + res1);
+    res1 = (p2 - p1);
+    entradaTec.close();
+}
     }
 } //end method main
