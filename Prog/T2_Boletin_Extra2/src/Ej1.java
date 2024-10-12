@@ -1,0 +1,2 @@
+public class Ej1 {
+}
