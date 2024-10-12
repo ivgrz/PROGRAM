@@ -14,27 +14,5 @@ public class Ej2 {
         System.out.println(temperaturaCentigrado + " es equivalente a " + tFahrenheit + " en Fahrenheit y a " + tKelvin + " en Kelvin");
 
 
-
-2
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     }
 }

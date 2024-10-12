@@ -19,13 +19,5 @@ public class Ej1 {
             System.out.println("Error, intentelo de nuevo");
         }
 
-
-
-
-
-
-
-
-
     }
 }
