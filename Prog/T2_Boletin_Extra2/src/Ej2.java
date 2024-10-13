@@ -4,7 +4,6 @@ public class Ej2 {
 
         Scanner teclado = new Scanner(System.in);
         double temperaturaCentigrado, tFahrenheit, tKelvin;
-
         System.out.println("Introduce la temperatura en grados centigrados");
         temperaturaCentigrado = teclado.nextDouble();
 
