@@ -15,6 +15,9 @@ public class Ej3 {
         System.out.println("Introduce las monedas de 1€");
         int m1 = teclado.nextInt();
 
+        int total = (b100 * 100) + (b20 * 20) + (b5 * 5) + ( m1 * 1);
+        System.out.println(total);
+
 
 
 
