@@ -16,6 +16,6 @@ public class ej5 {
         System.out.println("introduce un tercer numero: ");
         z = entradaTec.nextInt();
 
-        if ()
+
     }
 }
