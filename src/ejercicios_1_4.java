@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class ejercicios_1_4 {
     public static void main (String [] args) {
-
+/*
        int grade = 85;
 
         if (grade > 88) {
@@ -86,17 +86,45 @@ entradaTec = new Scanner(System.in);
 
     System.out.println("Introduce el nombre de la segunda persona:");
         String nombre2 = entradaTec.nextLine();
-        System.out.println("introduce el peso de la segunda persona: ");
+        entradaTec.nextLine();
+        System.out.println("introduce el peso de la segunda persona:");
         p2 = entradaTec.nextInt();
-entradaTec.nextLine();
 
+        res = (p1 - p2);
 if (p1 > p2) {
-    res = (p1 - p2);
- System.out.println("La persona que pesa mas es: " + nombre + "La diferencia de peso entre los dos es: " + res);
+
+    System.out.println("La persona que pesa mas es: " + nombre);
+    System.out.println("la diferencia de peso entre los dos es: " + res);
 }
 else {
     System.out.println("La persona que pesa mas es: " + nombre2);
 }
 
+//Boletin 3 ej 5
+            int num1, num2, num3;
+            entradaT = new Scanner(System.in)
+            System.out.println("introduce el primer numero: ");
+            num1 = entradaT.nextInt();
+            System.out.println("introduce el segundo numero: ");
+            num2 = entradaT.nextInt();
+            System.out.println("introduce el tercer numero: ");
+            num3 = entradaT.nextInt();
+if (num1>num2){
+*/
+
+//Boletin3 ej 4 version b
+        int  x, y, z;
+        Scanner entradaTec = new Scanner(System.in);
+        System.out.println("Introduce nombre de la primera persona:");
+        String nom = entradaTec.nextLine();
+        System.out.println("introduce el peso de la primera persona: ");
+        x = entradaTec.nextInt();
+        System.out.println("Introduce el nombre de la segunda persona:");
+        String nom2 = entradaTec.nextLine();
+        entradaTec.nextLine();
+        System.out.println("introduce el peso de la segunda persona:");
+        y = entradaTec.nextInt();
+        z = (y < x) ? x : y;
+        System.out.println("la cantidad de mas peso es de " + z + " kilos");
     }
-} //end method main
+}
