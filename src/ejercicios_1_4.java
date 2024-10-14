@@ -127,6 +127,12 @@ if (num1>num2){
         z = (y < x) ? nom: nom2;
         System.out.println("la cantidad de mas peso es de " + z + " kilos y pertenece a: " + z); //de int a String q fue
 
-
+        System.out.println("¿En que curso esta?");
+        int grade = entradaTec.nextInt():
+        switch (grade) {
+            case
+            case
+            case
+        }
     }
 }
