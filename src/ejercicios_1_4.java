@@ -116,15 +116,17 @@ if (num1>num2){
         int  x, y, z;
         Scanner entradaTec = new Scanner(System.in);
         System.out.println("Introduce nombre de la primera persona:");
-        String nom = entradaTec.nextLine();
+        String nom = entradaTec.next();
         System.out.println("introduce el peso de la primera persona: ");
         x = entradaTec.nextInt();
         System.out.println("Introduce el nombre de la segunda persona:");
-        String nom2 = entradaTec.nextLine();
-        entradaTec.nextLine();
+        String nom2 = entradaTec.next();
         System.out.println("introduce el peso de la segunda persona:");
         y = entradaTec.nextInt();
         z = (y < x) ? x : y;
-        System.out.println("la cantidad de mas peso es de " + z + " kilos");
+        z = (y < x) ? nom: nom2;
+        System.out.println("la cantidad de mas peso es de " + z + " kilos y pertenece a: " + z); //de int a String q fue
+
+
     }
 }
