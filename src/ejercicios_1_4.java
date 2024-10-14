@@ -112,7 +112,7 @@ else {
 if (num1>num2){
 */
 
-//Boletin3 ej 4 version b
+//Boletin3 ej 4 version B
         int  x, y, z;
         Scanner entradaTec = new Scanner(System.in);
         System.out.println("Introduce nombre de la primera persona:");
