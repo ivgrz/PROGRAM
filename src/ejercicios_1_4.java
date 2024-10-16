@@ -111,7 +111,7 @@ else {
             num3 = entradaT.nextInt();
 if (num1>num2){
 */
-
+/*
 //Boletin3 ej 4 version B
         int  x, y, z;
         Scanner entradaTec = new Scanner(System.in);
@@ -126,13 +126,33 @@ if (num1>num2){
         z = (y < x) ? x : y;
         z = (y < x) ? nom: nom2;
         System.out.println("la cantidad de mas peso es de " + z + " kilos y pertenece a: " + z); //de int a String q fue
+*/
 
-        System.out.println("¿En que curso esta?");
-        int grade = entradaTec.nextInt():
+        Scanner entradatec = new Scanner(System.in);
+        System.out.println("introduce una nota: ");
+
+        int grade = entradatec.nextInt();
         switch (grade) {
-            case
-            case
-            case
+            case 5:
+                System.out.println("suficiente");
+                break;
+            case 6:
+                System.out.println("Bueno");
+                break;
+            case 7,8:
+                System.out.println("Notable");
+                break;
+
+            case 9,10:
+                System.out.println("Sobresaliente");
+                break;
+
+            default:
+                System.out.println("suspenso");
+
+
+
+
         }
     }
 }
