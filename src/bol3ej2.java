@@ -1,5 +1,10 @@
 import java.util.Scanner;
 
+/**
+ * introduce dos numeros, si es mayor el primero que el segundo, haz la resta, sino la suma
+ * @version 1
+ * @author ivan
+ */
 public class bol3ej2 {
     public static void main(String[] args) {
         short z, y, r1, r2 = 0;
