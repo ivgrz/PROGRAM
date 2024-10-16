@@ -127,7 +127,7 @@ if (num1>num2){
         z = (y < x) ? nom: nom2;
         System.out.println("la cantidad de mas peso es de " + z + " kilos y pertenece a: " + z); //de int a String q fue
 */
-
+/*
         Scanner entradatec = new Scanner(System.in);
         System.out.println("introduce una nota: ");
 
@@ -148,9 +148,99 @@ if (num1>num2){
                 break;
 
             default:
-                System.out.println("suspenso");
+                System.out.println("bobi");
 
+                Scanner entradatec = new Scanner(System.in);
+                System.out.println("introduce un num : ");
+*/
+        Scanner entradatec = new Scanner(System.in);
+        System.out.println("introduce un numero: ");
+               int n1,n2;
+                int num = entradatec.nextInt();
+                n1 = num/10;
+                n2 = num%10;
 
+                switch (num) {
+                    if (num < 10 || num > 20) {
+
+                        case 10:
+                            System.out.println("diez");
+                        case 11:
+                            System.out.println("once");
+                        case 12:
+                            System.out.println("doce");
+                        case 13:
+                            System.out.println("trece");
+                        case 14:
+                            System.out.println("catorce");
+                        case 15:
+                            System.out.println("quince");
+                    }
+
+                }
+
+                        switch (n1) {
+                            case 1:
+                                System.out.println("diez y");
+                                break;
+                            case 2:
+                                System.out.println("veinti");
+                                break;
+                            case 3:
+                                System.out.println("treinta y");
+                                break;
+                            case 4:
+                                System.out.println("cuarenta y");
+                                break;
+                            case 5:
+                                System.out.println("cincuenta y");
+                                break;
+                            case 6:
+                                System.out.println("sesenta y");
+                                break;
+                            case 7:
+                                System.out.println("setenta y");
+                                break;
+                            case 8:
+                                System.out.println("ochenta y");
+                                break;
+                            case 9:
+                                System.out.println("noventa y");
+                                break;
+
+                        }
+                    switch (n2) {
+                        case 0:
+                            System.out.println(" ");
+                        case 1:
+                            System.out.println("uno");
+                            break;
+                        case 2:
+                            System.out.println("dos");
+                            break;
+                        case 3:
+                            System.out.println("tres");
+                            break;
+                        case 4:
+                            System.out.println("cuatro");
+                            break;
+                        case 5:
+                            System.out.println("cinco");
+                            break;
+                        case 6:
+                            System.out.println("seis");
+                            break;
+                        case 7:
+                            System.out.println("siete");
+                            break;
+                        case 8:
+                            System.out.println("ocho");
+                            break;
+                        case 9:
+                            System.out.println("nueve");
+                            break;
+
+                }
 
 
         }
