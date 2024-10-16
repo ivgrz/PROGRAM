@@ -2,7 +2,18 @@ import java.util.Scanner;
 
 public class ej1 {
     public static void main (String [] args){
-    //Boletin 2 ejercicio 1
+        int grade = 85;
+
+        if (grade > 88) {
+            System.out.println("you made the honor roll");
+        }
+        else {
+            System.out.println("Pasaste");
+        }
+
+
+
+            //Boletin 2 ejercicio 1
         double base, altura, area;
         base = 4;
         altura = 3;
