@@ -1,5 +1,10 @@
 import java.util.Scanner;
 
+/**
+ * Califica segun la nota de cada alumno
+ * @version 1.1
+ * @author Ivan
+ */
 public class progext {
     public static void main(String[] args) {
         Scanner entradatec = new Scanner(System.in);
