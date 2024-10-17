@@ -12,7 +12,7 @@ public class boletin4_3 {
             System.out.println("el valor absoluto de tu numero es " + v);
         }
         else {
-            System.out.println("El valor absoluto de tu numero es " + x);
+            System.out.println("El valor absoluto de tu numero seria " + x);
         }
     }
 }
