@@ -28,6 +28,6 @@ public class pruebaswitch {
         };
     if (dias != -1) {
         System.out.println("El numero de dias del mes " + mes + " es " + dias);
-    }
+        }
     }
 }
