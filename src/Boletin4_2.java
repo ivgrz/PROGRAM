@@ -1,5 +1,10 @@
 import java.util.Scanner;
 
+/**
+ * Calcula el area de las figuraas
+ * @version 1.1
+ * @author ivan gutierrez
+ */
 public class Boletin4_2 {
     public static void main(String[] args) {
         int ac, x,y,b,h;
