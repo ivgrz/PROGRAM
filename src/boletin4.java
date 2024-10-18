@@ -1,5 +1,10 @@
 import java.util.Scanner;
 
+/**
+ * Clasifica por tipo de articulo segun sus ventas
+ * @version 1
+ * @author ivan gutierrez
+ */
 public class boletin4 {
     public static void main(String[] args) {
 //Ejercicio1
