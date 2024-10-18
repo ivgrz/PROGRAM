@@ -1,5 +1,10 @@
 import java.util.Scanner;
 
+/**
+ * Saca el valor absoluto de cualquier numero
+ * @version 1.0
+ * @author ivan gutierrez
+ */
 public class boletin4_3 {
     public static void main(String[] args) {
         int x, v;
