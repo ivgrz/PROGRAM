@@ -17,10 +17,33 @@ public class boletin4_4 {
         decenas = numero/10;
         unidades = numero%10;
 
-        switch (decenas) {
+        switch (unidades){
+            case   0: uniCadea=""; break;
+            case   1:  uniCadea="uno"; break;
+            case   2:  uniCadea="dos";  break;
+            case   3:  uniCadea="tres"; break;
+            case   4:  uniCadea="cuatro";   break;
+            case   5:  uniCadea="cinco";    break;
+            case   6:  uniCadea="seis"; break;
+            case   7:  uniCadea="siete"; break;
+            case   8:  uniCadea="ocho"; break;
+            case   9:  uniCadea="nueve"; break;
+        }
 
-            case 1: decCadea=
-                "Diez";
+
+
+        switch (decenas) {
+            case 0: decCadea = ""; break;
+            case 1: if (unidades == 1) uniCadea = "Once";
+                    else if (unidades == 2) uniCadea ="doce";
+                    else if (unidades == 3) uniCadea = "Trece";
+                    else if (unidades == 4) uniCadea = "Catorce";
+                    else if (unidades == 5) uniCadea = "Quince";
+                    else if (unidades == 6) uniCadea = "Dieciseis";
+                    else if (unidades == 7) uniCadea = "Diecisiete";
+                    else if (unidades == 8) uniCadea = "Dieciocho";
+                    else if (unidades == 9) uniCadea = "Diecinueve";
+                    else if (unidades == 0) uniCadea = "Diez";
                 break;
             case 2: decCadea=
                 "Veinte";
@@ -47,19 +70,9 @@ public class boletin4_4 {
                 "Noventa";
                 break;
         }
-         switch (unidades){
-             case   0: uniCadea=""; break;
-             case   1:  uniCadea="uno"; break;
-             case   2:  uniCadea="dos";  break;
-             case   3:  uniCadea="tres"; break;
-             case   4:  uniCadea="cuatro";   break;
-             case   5:  uniCadea="cinco";    break;
-             case   6:  uniCadea="seis"; break;
-             case   7:  uniCadea="siete"; break;
-             case   8:  uniCadea="ocho"; break;
-             case   9:  uniCadea="nueve"; break;
-         }
-        conjuncion = (unidades==0|| decenas==0)? "": "y ";
-        System.out.println("El numero es " + decCadea + " " + conjuncion + uniCadea);
+
+
+        conjuncion = (unidades==0 || decenas==0 || decenas == 1)? "": "y ";
+        System.out.println("El numero es " + decCadea + " " + conjuncion + "" + uniCadea);
     }
 }
