@@ -5,6 +5,7 @@
  */
 public class ejerciciop1 {
     public static void main(String[] args) {
+
         int i = 1;
         int numero = 7;
         for (;i <= 14; i++) {
@@ -12,7 +13,11 @@ public class ejerciciop1 {
         }
 
 
+        for (int x=0; x<100;x++) {
+            if (x % 7 == 0) {
+                System.out.println(x);
+            }
 
-
+        }
     }
 }
