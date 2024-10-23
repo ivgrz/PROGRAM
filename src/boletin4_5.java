@@ -20,7 +20,7 @@ public class boletin4_5 {
 */
         int z = 10;
         while (z != 0) {
-            System.out.println(z);
+            System.out.println("Faltan " + z);
             z--;
         }
     }
