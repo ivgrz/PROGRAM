@@ -5,16 +5,26 @@ import java.util.Scanner;
  */
 public class ejerciciop3 {
     public static void main(String[] args) {
+
+        int nota,suma = 0,numero = 0;
+        double media;
         Scanner entTec = new Scanner(System.in);
-        int media = 0;
         System.out.println("introduce la nota del alumno(-1 para terminar): ");
-        int nota = entTec.nextInt();
-        while (num != -1){
-           media= (nota + num)/;
-           nota = nota++;
-            System.out.println("introduce la nota del alumno(-1 para terminar): ");
-            num = entTec.nextInt();
-        }
+        nota = entTec.nextInt();
+        while (nota != -1){
+            suma = suma + nota;
+            numero++;
+            nota = entTec.nextInt();
+                   }
+        media =suma/numero;
         System.out.println("La media es " + media);
+
+
     }
 }
+
+
+
+
+
+
