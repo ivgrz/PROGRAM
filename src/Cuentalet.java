@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 /**
  * Prueba y documentacion de funciones
  *
@@ -12,6 +14,10 @@ public class Cuentalet {
      */
     public static void main(String[] args) {
         cuentaletras("hola","mundo");
+        //pide el primer numero
+        int primernum =obtenernumero();
+        //pide segundo numero
+        int segundonum = obtenernumero();
     }
 
     /**
@@ -26,6 +32,16 @@ public class Cuentalet {
         return 0;
     }
 
+    /**
+     * Pide el primer numero
+     * @return numero introducido por teclado
+     */
+    static int obtenernumero(){
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Dame un numero ");
+        int numero = sc.nextInt();
+    return numero;
+    }
 }
 
 
