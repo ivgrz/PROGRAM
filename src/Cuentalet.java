@@ -11,18 +11,18 @@ public class Cuentalet {
      * @param args
      */
     public static void main(String[] args) {
-        cuentaletras("hola", "mundo");
+        cuentaletras("hola","mundo");
     }
 
     /**
      * Cuenta la totalidad de las letras de dos palabras
      *
-     * @param a palabra a contar caracteres
-     * @param b palbra a contar caracteres
+     * @param palabra1 palabra palabra1 contar caracteres
+     * @param palabra2 palbra palabra1 contar caracteres
      * @return numero de letras totales
      */
-    static int cuentaletras(String a, String b) {
-        int total = a.length() + b.length();
+    static int cuentaletras(String palabra1, String palabra2){
+        int total = palabra1.length() + palabra2.length();
         return 0;
     }
 
