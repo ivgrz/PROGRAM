@@ -1,6 +1,10 @@
+/**
+ * Boletin6ej1
+ */
+
 import java.util.Scanner;
 
-public class EjercicioFunc {
+public class Boletin6ej1 {
     static int Numeros(){
         Scanner entrada = new Scanner(System.in);
         System.out.println("Pon el primero numero: ");
