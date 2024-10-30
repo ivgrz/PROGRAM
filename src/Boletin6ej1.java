@@ -21,6 +21,13 @@ public class Boletin6ej1 {
     public static void main(String[] args) {
     int num1 = Numeros();
     int num2 = Numeros2();
+    if (num1 > num2){
+        int aux = num1;
+        num1 = num2;
+        num2 = aux;
+
+
+    }
     for (int i = num1+1;i < num2;i++){
         System.out.println(i);
     }
