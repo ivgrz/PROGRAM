@@ -1,7 +1,8 @@
 public class Boltein6_9 {
 
     public static void main(String[] args) {
-        System.out.println(Fibonacci(28));
+        System.out.println(Fibonacci(33));
+
     }
 
 
