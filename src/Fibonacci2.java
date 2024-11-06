@@ -10,7 +10,7 @@ public class Fibonacci2 {
         n1 = sc.nextInt();
         System.out.println("introduce el segundo numero");
         n2 = sc.nextInt();
-
+        recursiva("hola ");
         for (int i = 0; i < limite; i++){
 
             ns = fibonacci(n1,n2);
@@ -20,6 +20,14 @@ public class Fibonacci2 {
 
         }
 
+
+
+
+    }
+
+    static void recursiva(String msg){
+        System.out.println(msg);
+        if (msg.length()<10) recursiva(msg+".");
     }
     static int  fibonacci(int a, int b){
         int suma = a + b;
