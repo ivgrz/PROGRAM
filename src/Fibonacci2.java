@@ -6,13 +6,14 @@ public class Fibonacci2 {
     Scanner sc = new Scanner(System.in);
         System.out.println("introduce el limite para la sucesion: ");
         int limite = sc.nextInt();
-
-        n1 = 2;
-        n2 = 3;
+        System.out.println("introduce el primer numero");
+        n1 = sc.nextInt();
+        System.out.println("introduce el segundo numero");
+        n2 = sc.nextInt();
 
         for (int i = 0; i < limite; i++){
-            ns = n1 + n2;
-            System.out.println(ns);
+
+            ns = fibonacci(n1,n2);
 
             n1 = n2;
             n2 = ns;
@@ -20,7 +21,12 @@ public class Fibonacci2 {
         }
 
     }
+    static int  fibonacci(int a, int b){
+        int suma = a + b;
+        System.out.println(suma);
 
+        return suma;
+    }
 
 
 }
