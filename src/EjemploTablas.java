@@ -14,7 +14,12 @@ public class EjemploTablas {
         int minimo = edades[0];
         for (int i = 1; i < edades.length; i++){
            if (minimo > edades[i]) minimo = edades[i];
-            System.out.println("el valor mismo de edades es: "+ minimo);
+            System.out.println("el valor minimo de edades es: "+ minimo);
+
+            for (int edad: edades){
+                System.out.println(edad);
+            }
+
         }
 
     }
