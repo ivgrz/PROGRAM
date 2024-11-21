@@ -15,11 +15,28 @@ public class BOLETIN7EJ6 {
         }
    }
     public static int buscarValor(int[] tabla,int valor){
-    for (int i=0; i< tabla.length; i++){
+       int inicio = 0;
+       int fin = tabla.length -1;
+
+       while (inicio<=fin){
+           int medio = (inicio + fin)/2;
+            if (tabla[medio] == valor){
+                return medio;
+            }
+            else if (valor < tabla[medio]){
+                fin = medio - 1;
+            }else if (valor > tabla[medio]){
+                inicio = medio + 1;
+            }
+
+       }
+
+       for (int i=0; i< tabla.length; i++){
         if (tabla[i]==valor){
             return i;
         }
-    }
+
+       }
    return -1;
    }
 
