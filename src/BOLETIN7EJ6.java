@@ -8,6 +8,7 @@ public class BOLETIN7EJ6 {
        int tabla[] = {2,3,4,6,7,8,9,24,34};
        int indice = buscarValor(tabla,valorBuscado);
         if (indice != -1){
+
             System.out.println("El indice es "+ indice);
         }
         else {
@@ -39,6 +40,4 @@ public class BOLETIN7EJ6 {
        }
    return -1;
    }
-
-
 }

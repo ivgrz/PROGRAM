@@ -1,6 +1,6 @@
 public class EjemploFunciones3 {
     public static void main(String[] args) {
-        System.out.println(funcReces(5));
+        System.out.println(funcReces(3));
     }
     static long funcReces ( int n ) {
         long res;

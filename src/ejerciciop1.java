@@ -17,7 +17,8 @@ public class ejerciciop1 {
             if (x % 7 == 0) {
                 System.out.println(x);
             }
-
         }
+
+
     }
 }

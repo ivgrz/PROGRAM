@@ -15,9 +15,9 @@ public class Cuentalet {
     public static void main(String[] args) {
         cuentaletras("hola","mundo");
         //pide el primer numero
-        int primernum =obtenernumero();
+       // int primernum =obtenernumero();
         //pide segundo numero
-        int segundonum = obtenernumero();
+       // int segundonum = obtenernumero();
     }
 
     /**
@@ -34,9 +34,10 @@ public class Cuentalet {
 
     /**
      * Pide el primer numero
+     * @param msg mensaje por pantalla
      * @return numero introducido por teclado
      */
-    static int obtenernumero(){
+    static int obtenernumero(String msg){
         Scanner sc = new Scanner(System.in);
         System.out.println("Dame un numero ");
         int numero = sc.nextInt();

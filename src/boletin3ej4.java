@@ -29,6 +29,7 @@ public class boletin3ej4 {
             System.out.println("La persona que pesa mas es " + nombre2);
             System.out.println("La diferencia entre sus pesos es " + (p2 - p1));
         }
+
     }
 }
 

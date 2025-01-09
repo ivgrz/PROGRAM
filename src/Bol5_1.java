@@ -4,7 +4,7 @@ public class Bol5_1 {
     public static void main(String[] args) {
     int x = 0, cantE = 0, cantcero = 0, cantneg = 0;
         Scanner sc= new Scanner(System.in);
-        for (;x<10;x++){
+        for (;x < 10;x++){
             System.out.println("introduce un numero");
             x = sc.nextInt();
             if (x > 0){

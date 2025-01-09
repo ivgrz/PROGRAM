@@ -17,9 +17,10 @@ public class EjemploTablas {
             System.out.println("el valor minimo de edades es: "+ minimo);
 
             for (int edad: edades){
-                System.out.println(edad);
-            }
+                if (minimo >edad) minimo = edad;
 
+            }
+            System.out.println("el valor minimo de edades es: "+ minimo);
         }
 
     }

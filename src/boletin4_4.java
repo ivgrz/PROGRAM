@@ -70,8 +70,6 @@ public class boletin4_4 {
                 "Noventa";
                 break;
         }
-
-
         conjuncion = (unidades==0 || decenas==0 || decenas == 1)? "": "y ";
         System.out.println("El numero es " + decCadea + " " + conjuncion + "" + uniCadea);
     }
