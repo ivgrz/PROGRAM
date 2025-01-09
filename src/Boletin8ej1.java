@@ -45,7 +45,7 @@ public class Boletin8ej1 {
         }
 
         /**
-         * primera funcion
+         * primera
          * @param f
          */
         public static void dosprimero(String f){
