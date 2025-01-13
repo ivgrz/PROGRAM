@@ -1,7 +1,7 @@
 package ejemplos;
 
 import java.util.Scanner;
-
+//Falta terminar
 public class ahorcado {
     public static void main(String[] args) {
         String respuesta = "Messi";
