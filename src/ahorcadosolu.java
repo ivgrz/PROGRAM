@@ -15,7 +15,7 @@ public class ahorcadosolu {
 
             do {
                 System.out.println("La palabra a adivinar es: " + cadenadeguiones);
-                System.out.println("Jugador 2: introduce la palabra o letra a adivinar");
+                System.out.println("Jugador 2: introduce la palabra o letra que consideres que corresponda");
                 letraopalabra = sc.nextLine();
 
                 if (letraopalabra.length() > 1) {
@@ -30,8 +30,8 @@ public class ahorcadosolu {
                         acierto = true;
                     }
                 }
-                ronda++;
-            } while (ronda < 7 && !acierto);
+               ronda ++;
+            } while (ronda < letraopalabra.length()+12 && !acierto);
 
             if (acierto) {
                 System.out.println("¡Acertaste! La palabra es: " + palabraAdivinar);
@@ -42,7 +42,7 @@ public class ahorcadosolu {
                 System.out.println("|      0");
                 System.out.println("|     /|\\ ");
                 System.out.println("|     / \\  ");
-                System.out.println("_");
+                System.out.println("__");
             }
         }
 
@@ -77,6 +77,12 @@ public class ahorcadosolu {
 
             return new String(charsGuiones);
         }
+
+
+
     }
+
+
+
 
 
