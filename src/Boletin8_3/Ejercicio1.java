@@ -4,9 +4,11 @@ import java.util.Scanner;
 
 public class Ejercicio1 {
     public static void main(String[] args) {
+
+
         String secuencia = "";
         int num = 0;
-
+        System.out.println(dividida(secuencia,num));
     }
 
     public static String dividida(String palabra, int sec){
@@ -18,8 +20,16 @@ public class Ejercicio1 {
 
 
         do {
+            for (int i = 0; i<palabra.length();i++){
 
-        }
+
+
+            }
+
+
+
+
+        }while ()
 
 
 
