@@ -2,8 +2,7 @@ package Boletin8_3;
 
 public class Ejercicio_2 {
     public static void main(String[] args) {
-String texto = """
-        
+String texto = """ 
         La Música Popular: Voz del Pueblo
         
         La música popular es un reflejo de las emociones y vivencias de las personas. 
@@ -18,7 +17,7 @@ String texto = """
         
         
         """;
-
+        formatoHTML(texto);
 
     }
 
@@ -29,7 +28,7 @@ String texto = """
 
         String parrafos = texto.substring(Primeralinea);
 
-        System.out.println("<HTML>"+ "\n" + "<h1>" + titulo + "</h1>" + "<p>" + parrafos + "</p>" + "\n" + "</HTML>");
+        System.out.println("<HTML>"+ "\n" + "<h1>" + titulo + "</h1>" + "\n" + "<p>" + parrafos + "</p>" + "\n" + "</HTML>");
 
 
 
