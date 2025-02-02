@@ -9,7 +9,7 @@ public class ejercicio1 {
         String cadena = sc.nextLine();
         int n = 0;
         dosprimeroscaract(cadena, n);
-
+        ultimostrescaract(cadena,n);
 
     }
 
@@ -20,8 +20,15 @@ public static void dosprimeroscaract(String cadena, int n){
             System.out.println(subcadena);
 
         }
-public static void
-}
 
+}
+    public static void ultimostrescaract(String cadena){
+
+      if (cadena.length() >= 3){
+                String subcad = cadena.substring(cadena.length()-3);
+            System.out.println(subcad);
+        }else
+        System.out.println("cadena muy corta");
+    }
 
 }
