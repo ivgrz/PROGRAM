@@ -9,8 +9,8 @@ public class ejercicio1 {
         String cadena = sc.nextLine();
         int n = 0;
         dosprimeroscaract(cadena, n);
-        ultimostrescaract(cadena,n);
-
+        ultimostrescaract(cadena);
+        cadados(cadena);
     }
 
 public static void dosprimeroscaract(String cadena, int n){
@@ -30,5 +30,17 @@ public static void dosprimeroscaract(String cadena, int n){
         }else
         System.out.println("cadena muy corta");
     }
+
+    public static void cadados(String cadena){
+        String rest = "";
+        for (int i = 0; i<cadena.length(); i+=2){
+
+               rest += cadena.charAt(i);
+
+        }
+        System.out.println("la cadena cada dos caracteres resulta en: "+ rest);
+    }
+
+
 
 }
