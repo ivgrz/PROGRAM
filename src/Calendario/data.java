@@ -50,7 +50,12 @@ public class data {
         return year;
     }
     public void incrementarDia(){
-        if (dia == diasMes())
+        if (dia == diasMes()){ dia = 1;
+        incrementarmeses();
+        }else {
+            dia++;
+        }
+
     }
     public void incrementarmeses(){
         if (mes == 12 ){
