@@ -23,10 +23,8 @@ public class data {
 
     }
     public void setDia(int dia){
-        int [] diasMes = {31, 28, 31, 30, 31,30,31, 31, 30, 31, 30,31};
-        int diasMax = diasMes [mes-1];
-        if ((ebisiesto()==true)&& mes == 2) diasMax = 29;
-        if (dia > 0 && dia < diasMax+1) this.dia = dia;
+
+        if (dia > 0 && dia <= diasMes()) this.dia = dia;
         else this.dia = 1;
 
 
@@ -51,6 +49,9 @@ public class data {
     public int getAno(){
         return year;
     }
+    public void incrementarDia(){
+        if (dia == diasMes())
+    }
     public void incrementarmeses(){
         if (mes == 12 ){
             mes = 1;
@@ -67,12 +68,20 @@ public class data {
         return true;
     }else return false;
 
+
+    }
+
+    private int diasMes(){
+        int [] diasmaxMes = {31, 28, 31, 30, 31,30,31, 31, 30, 31, 30,31};
+        int diasMes = diasmaxMes   [mes-1];
+        if ((ebisiesto()==true)&& mes == 2) diasMes = 29;
+        return diasMes;
+
     }
 
 
 
-
-    }
+}
 
 
 
