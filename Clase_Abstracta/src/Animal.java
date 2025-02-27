@@ -1,20 +1,10 @@
-public class Animal {
+public abstract class Animal {
     private String Nombre;
     private int edad;
 
-    public Animal(){
-
-
-    }
-    public String comer(){
-
-    }
-    public String dormir(){
-
-
-    }
-    public String desplazar(){
-
+    public Animal(String nombre, int Edad){
+    this.Nombre= nombre;
+    this.edad = Edad;
 
     }
     public String getNombre(){
@@ -27,8 +17,23 @@ public class Animal {
     return  edad;
     }
     public void setEdad(){
+        this.edad = Math.abs(edad);
+    }
+    public void comer(){
+        System.out.println(Nombre+" esta comiendo");
+    }
+    public String dormir(){
+
 
     }
+    public String desplazar(){
+
+
+    }
+
+
+
+
 
 }
 
