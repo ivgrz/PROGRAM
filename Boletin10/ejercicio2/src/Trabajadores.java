@@ -6,4 +6,11 @@ private String nombre;
 private int fechaingreso;
 
 
+
+public String aCadea(){
+
+}
+public int gastosIngresos(){
+
+}
 }
