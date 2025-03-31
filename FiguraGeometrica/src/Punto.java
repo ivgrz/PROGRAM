@@ -18,7 +18,7 @@ public class Punto {
             setY(w);
         }
 
-        public Punto (double x, double  y){
+        public Punto (double x, double  y)throws ExcepcionPuntoForaPrimeiroCadrante{
             setX(x);
             setY(y);
         }
@@ -31,7 +31,7 @@ public class Punto {
             return x;
         }
 
-        public void setY (double y){
+        public void setY (double y)throws ExcepcionPuntoForaPrimeiroCadrante{
             if (y>=0) this.y = y;
             else throw new RuntimeException("Tienen que ser positivos");
         }
