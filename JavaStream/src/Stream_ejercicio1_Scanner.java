@@ -29,8 +29,7 @@ public class Stream_ejercicio1_Scanner {
                 entrada.close();
 
             }
-            }
-        }
-
+       }
     }
+}
 
