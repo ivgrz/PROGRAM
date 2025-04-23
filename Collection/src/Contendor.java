@@ -10,4 +10,7 @@ public class Contendor <T> {
         obxeto = null;
         return res;
     }
+
+
+
 }
