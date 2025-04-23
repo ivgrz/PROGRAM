@@ -13,5 +13,21 @@ public class Main {
         ele.guardar(6);
         Object o = ele.extraer();
         System.out.println(o);
+
+
+        Double [] temp = new Double[5];
+        temp[0] = 2.3;
+        temp[1] = 15.23;
+        temp[2] = 22.43;
+        temp[3] = -5.66;
+        temp[4] = 15.77;
+
+        ContendorElementos<Double> t = new ContendorElementos<Double>(temp);
+        t.apilar(2.45);
+        t.apilar(33.56);
+        System.out.println(t.desapilar());
+        System.out.println(t.desapilar());
+        System.out.println(t.desapilar());
+
     }
 }
