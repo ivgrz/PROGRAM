@@ -8,6 +8,11 @@ public class TratamientoClientes {
         coleccionCliente.add(new cliente("12345678A", "Juan", "01/01/2000"));
         coleccionCliente.add(new cliente("23456789B", "Ana", "02/02/1995"));
         coleccionCliente.add(new cliente("34567890C", "Luis", "03/03/1985"));
+        cliente unCliente = new cliente("45678901D", "Maria", "04/04/1990");
+        coleccionCliente.remove(unCliente);
+        Object [] clientes = coleccionCliente.toArray();
+        iterator<cliente> indice = coleccionCliente.iterator();
+        for ()
         coleccionCliente.clear();
     }
 }
