@@ -8,7 +8,7 @@ public class cliente implements Comparable<cliente> {
     LocalDate dataNacemento;
 
 
-    public cliente(String dni, String nome, LocalDate dataNacemento) {
+    public cliente(String dni, String nome, String dataNacemento) {
         this.dni = dni;
         this.nome = nome;
         DateTimeFormatter formatoData = DateTimeFormatter.ofPattern("dd/MM/yyyy");
