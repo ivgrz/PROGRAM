@@ -6,6 +6,8 @@ public class Main {
         System.out.println(n);
         System.out.println(num.extraer());
         Contendor<String> cad = new Contendor<String>();
+        Contendor<?> ContedorParaCualquierTipo = new Contendor<Integer>();
+
         cad.guardar("Hola");
         String c = cad.extraer();
         System.out.println(c);

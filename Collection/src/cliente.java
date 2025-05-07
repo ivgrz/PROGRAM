@@ -12,7 +12,7 @@ public class cliente implements Comparable<cliente> {
         this.dni = dni;
         this.nome = nome;
         DateTimeFormatter formatoData = DateTimeFormatter.ofPattern("dd/MM/yyyy");
-        this.dataNacemento = dataNacemento;
+        this.dataNacemento = LocalDate.parse(dataNacemento);
     }
 
     int edad() {
