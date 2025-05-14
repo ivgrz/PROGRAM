@@ -39,6 +39,15 @@ public class Ejercicio4 {
         }
         System.out.println("Suma de positivos: " + sumaPositivos);
         System.out.println("Suma de negativos: " + sumaNegativos);
+
+        numerosPositivos.removeIf(num -> num > 10);
+        numerosNegativos.removeIf(num -> num < -10);
+        System.out.println("Numeros positivos sin los mayores de 10: " + numerosPositivos);
+        System.out.println("Numeros negativos sin los menores de -10: " + numerosNegativos);
+
+
+
+
     }
 
 
