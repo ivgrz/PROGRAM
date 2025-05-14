@@ -27,7 +27,6 @@ public class Ejercicios5 {
             if (num % 2 == 0) {
                 System.out.println(numeros.get(num) * 100);
             }
-
         }
 
     }
